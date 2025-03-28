@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>SUPER HERO</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: "Cinzel", serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        .hero {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .hero img {
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto;
+        }
+        .hero a {
+            text-decoration: none;
+            color: #017bf5;
+            font-size: 28px;
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .hero p {
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 1.8;
+            text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+        }
+        h1, h3, a {
+            font-family: "Cinzel", serif;
+            text-shadow: 3px 3px 8px rgba(255, 255, 255, 0.5);
+        }
+        #batman {
+            background: rgba(0, 0, 0, 0.9);
+            border-left: 5px solid #ffcc00;
+        }
+        #spiderman {
+            background: rgba(139, 0, 0, 0.8);
+            border-left: 5px solid #ff0000;
+        }
+        #superman {
+            background: rgba(0, 0, 139, 0.8);
+            border-left: 5px solid #ffcc00;
+        }
+        .Shesh {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h3>
+        <font size="6">LOGO</font>
+        <br /><br />
+        <font size="3">
+            <a href="#batman">BATMAN</a>&nbsp; &nbsp; &nbsp; 
+            <a href="#spiderman">SPIDER-MAN</a>&nbsp; &nbsp; &nbsp; 
+            <a href="#superman">SUPERMAN</a>
+        </font>       
+    </h3>
+    <br /><br />
+    <h1>
+        <font color="#017bf5" size="7">
+            MY RESEARCH PORTFOLIO
+        </font>
+    </h1>
+    <h3>
+        <font color="#fff" size="4">
+            REAL NO FAKE
+        </font>
+    </h3>
+    
+    <div id="batman" class="hero">
+        <img src="batman.jpg" alt="Batman">
+        <a href="#">Batman</a>
+        <p>"I am vengeance. I am the night. I am Batman!" With unparalleled intellect and unwavering determination, Bruce Wayne dons the cape and cowl to cleanse Gotham of its darkness. No superpowers—just relentless will, cutting-edge technology, and peak human skill make him a legend in his own right.</p>
+    </div>
+    
+    <div id="spiderman" class="hero">
+        <img src="spiderman.jpg" alt="Spider-Man">
+        <a href="#">Spider-Man</a>
+        <p>"With great power comes great responsibility." Peter Parker, the friendly neighborhood Spider-Man, swings through New York with acrobatic prowess, using his genius intellect to outsmart villains. His quick wit and indomitable spirit make him one of the most beloved heroes of all time.</p>
+    </div>
+    
+    <div id="superman" class="hero">
+        <img src="superman.jpg" alt="Superman">
+        <a href="#">Superman</a>
+        <p>"Truth, Justice, and a Better Tomorrow!" Kal-El, the last son of Krypton, soars above humanity as its greatest protector. With the power to move planets and a heart full of compassion, Superman stands as a beacon of hope, proving that true strength lies in kindness.</p>
+    </div>
+
+    <div class="bottom-image">
+        <img src="uhh.jpg" alt="Superhero Team" width="600">
+    </div>
+</body>
+</html>
